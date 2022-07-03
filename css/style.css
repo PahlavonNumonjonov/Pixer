@@ -66,7 +66,7 @@ header {
     padding: 9px 0;
 }
 
-.header-page{
+.header-page {
     padding: 0;
 }
 
@@ -86,7 +86,7 @@ header {
     color: #000000;
     padding: 16px;
     border-bottom: 3px solid transparent;
-    transition: border-bottom 0.2s;
+    transition: border 0.4s;
 }
 
 .navbar-link:hover {
@@ -109,20 +109,17 @@ header {
 }
 
 
-.select-item{
+.select-item {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* 
-.select-link {
-    padding: 15px 16px;
-} */
 
 
-.navbar:hover .select{
+
+.navbar:hover .select {
     display: flex;
 }
 
@@ -136,11 +133,11 @@ header {
     border-radius: 5px;
 }
 
-.select li:last-child{
+.select li:last-child {
     margin-bottom: 0;
 }
 
-.select li{
+.select li {
     display: flex;
 }
 
@@ -157,13 +154,13 @@ header {
 }
 
 
-.select a:hover{
+.select a:hover {
     background: #00BAFC;
     color: #FFFFFF;
 }
 
 
-.select a:active{
+.select a:active {
     opacity: 0.6;
 }
 
@@ -500,7 +497,7 @@ form button {
     border-radius: 5px;
     outline: none;
     border: none;
-    width: 167;
+    width: 167px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
